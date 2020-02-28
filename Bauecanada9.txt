@@ -1,0 +1,39 @@
+var drone;
+function Etage()
+{
+ drone.box0(blocks.quartz, 8, 4, 5);
+}
+function Boden()
+{
+
+ drone.box(blocks.stone, 8, 1, 5);
+}
+function BaueHaus2()
+{
+	
+	Boden();
+	for(j=0;j<10;j++){
+		drone.up(1);
+		Etage();
+		drone.up(4);
+		Boden();
+	}
+}
+function Bauecanada9()
+{
+	drone=box(blocks.dirt,1 ,1, 1);
+	for(k=0;k<10;k++){
+	for(i=0;i<10;i++){
+		BaueHaus2();
+		drone.down(51);
+		drone.box(blocks.glowstone,1 ,1, 1);
+		drone.fwd(11);
+	}
+	drone.turn(2);
+	drone.fwd(110);
+	drone.turn(1);
+	drone.fwd(15);
+	drone.turn(1);
+	}
+}
+exports.Bauecanada9 = Bauecanada9;
