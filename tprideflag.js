@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 var drone;
 function beaconp()
 {
