@@ -1,0 +1,13 @@
+var drone;
+function treppe26() {
+drone = box(blocks.wool.orange,1,1,1);
+for (var count2 = 0; count2 < 5; count2++) {
+  for (var count = 0; count < 5; count++) {
+    drone.up(1);
+    drone.fwd(1);
+    drone.box(blocks.wool.orange,1,1,1);
+  }
+  drone.turn(1);
+}
+};
+ exports.treppe26 = treppe26;
