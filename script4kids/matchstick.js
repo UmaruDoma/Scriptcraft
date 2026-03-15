@@ -1,0 +1,24 @@
+function matchstick() {
+drone.box("WHITE_WOOL",2,10,2);
+drone.up(10);
+drone.box("RED_WOOL",2,2,2);
+drone.up(3);
+drone.box("YELLOW_WOOL",1,1,1);
+drone.up(1);
+drone.box("YELLOW_WOOL",2,1,2);
+drone.up(1);
+drone.fwd(1);
+drone.box("YELLOW_WOOL",1,1,1);
+drone.right(1);
+drone.up(1);
+drone.box("YELLOW_WOOL",1,1,1);
+drone.down(1);
+drone.box("YELLOW_WOOL",1,1,1);
+drone.back(1);
+drone.box("YELLOW_WOOL",1,1,1);
+drone.fwd(1);
+drone.up(3);
+drone.box("YELLOW_WOOL",1,1,1);
+};
+matchstick();
+player.sendMessage("Done!");

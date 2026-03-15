@@ -1,0 +1,483 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "funcbegin",
+        "id": "hap;-0t[Oqt|3mkgm~Ar",
+        "x": 13,
+        "y": -271,
+        "fields": {
+          "funcname": "building"
+        },
+        "next": {
+          "block": {
+            "type": "boxcmd",
+            "id": "UTF{O.6jAy$m^(D$q3$n",
+            "fields": {
+              "NAME": "DIRT",
+              "width": 5,
+              "height": 5,
+              "depth": 5
+            },
+            "next": {
+              "block": {
+                "type": "move",
+                "id": "G4[t1$58ccCJZ0a?Fhoa",
+                "fields": {
+                  "wayto": "fwd",
+                  "amount": 1
+                },
+                "next": {
+                  "block": {
+                    "type": "move",
+                    "id": "b/Vl(xT{?yk7Sf`~KfO@",
+                    "fields": {
+                      "wayto": "right",
+                      "amount": 1
+                    },
+                    "next": {
+                      "block": {
+                        "type": "boxcmd",
+                        "id": "*JO}$[KNyz.?8aThBx21",
+                        "fields": {
+                          "NAME": "QUARTZ_BLOCK",
+                          "width": 3,
+                          "height": 10,
+                          "depth": 3
+                        },
+                        "next": {
+                          "block": {
+                            "type": "move",
+                            "id": "ZjQ0IBf7DW)8SGG/).yk",
+                            "fields": {
+                              "wayto": "up",
+                              "amount": 10
+                            },
+                            "next": {
+                              "block": {
+                                "type": "boxcmd",
+                                "id": "F4~99O4`SD(qX}}Zptb[",
+                                "fields": {
+                                  "NAME": "DIAMOND_BLOCK",
+                                  "width": 3,
+                                  "height": 3,
+                                  "depth": 3
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "move",
+                                    "id": "9/r-U8!1}Q~Q-ThS`SU;",
+                                    "fields": {
+                                      "wayto": "up",
+                                      "amount": 3
+                                    },
+                                    "next": {
+                                      "block": {
+                                        "type": "controls_repeat_ext",
+                                        "id": "/uGmmT|OS4{1k$/?f.us",
+                                        "inputs": {
+                                          "TIMES": {
+                                            "shadow": {
+                                              "type": "math_number",
+                                              "id": "oB$|FM2fbrg*I]m,-a]d",
+                                              "fields": {
+                                                "NUM": 4
+                                              }
+                                            }
+                                          },
+                                          "DO": {
+                                            "block": {
+                                              "type": "controls_repeat_ext",
+                                              "id": "`,+d`(F*K7+]v8ICnq)6",
+                                              "inputs": {
+                                                "TIMES": {
+                                                  "shadow": {
+                                                    "type": "math_number",
+                                                    "id": "!WisWawu0Q]1.;6~}:D4",
+                                                    "fields": {
+                                                      "NUM": 1
+                                                    }
+                                                  }
+                                                },
+                                                "DO": {
+                                                  "block": {
+                                                    "type": "box0",
+                                                    "id": "K[j%Sk1|Yp[%!PNB#xL7",
+                                                    "fields": {
+                                                      "Boxtype": "box0",
+                                                      "NAME": "DIAMOND_BLOCK"
+                                                    },
+                                                    "inputs": {
+                                                      "X": {
+                                                        "block": {
+                                                          "type": "math_number",
+                                                          "id": ".:KVyhsl62!5t86Yd#0P",
+                                                          "fields": {
+                                                            "NUM": 1
+                                                          }
+                                                        }
+                                                      },
+                                                      "Z": {
+                                                        "block": {
+                                                          "type": "math_number",
+                                                          "id": "ns),pJ8e4Hrx3{ikPG?z",
+                                                          "fields": {
+                                                            "NUM": 1
+                                                          }
+                                                        }
+                                                      },
+                                                      "Y": {
+                                                        "block": {
+                                                          "type": "math_number",
+                                                          "id": "yDIIn[u]]LJ%P|*38dxS",
+                                                          "fields": {
+                                                            "NUM": 1
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "next": {
+                                                      "block": {
+                                                        "type": "move",
+                                                        "id": "$vAXcoLbkT:Bkl)QvD92",
+                                                        "fields": {
+                                                          "wayto": "fwd",
+                                                          "amount": 2
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "next": {
+                                                "block": {
+                                                  "type": "move",
+                                                  "id": "Q2RMqu`$S$,lC:9K37fi",
+                                                  "fields": {
+                                                    "wayto": "turn",
+                                                    "amount": 1
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "move",
+                                            "id": "v/`i/E%:27eI}++cLU=O",
+                                            "fields": {
+                                              "wayto": "down",
+                                              "amount": 12
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "move",
+                                                "id": "U|Z%L+2I4(TR)`Nj;+fb",
+                                                "fields": {
+                                                  "wayto": "back",
+                                                  "amount": 10
+                                                },
+                                                "next": {
+                                                  "block": {
+                                                    "type": "move",
+                                                    "id": "0jW*PQQjvq~7lhfrcO0%",
+                                                    "fields": {
+                                                      "wayto": "left",
+                                                      "amount": 8
+                                                    },
+                                                    "next": {
+                                                      "block": {
+                                                        "type": "box0",
+                                                        "id": "7-zLS0H-Y144A!4u4m7Z",
+                                                        "fields": {
+                                                          "Boxtype": "box0",
+                                                          "NAME": "YELLOW_WOOL"
+                                                        },
+                                                        "inputs": {
+                                                          "X": {
+                                                            "block": {
+                                                              "type": "math_number",
+                                                              "id": ")?bK|$m(e)7~nE+75/74",
+                                                              "fields": {
+                                                                "NUM": 21
+                                                              }
+                                                            }
+                                                          },
+                                                          "Z": {
+                                                            "block": {
+                                                              "type": "math_number",
+                                                              "id": ";/5GBmDLz.(PBp]p:^Vo",
+                                                              "fields": {
+                                                                "NUM": 2
+                                                              }
+                                                            }
+                                                          },
+                                                          "Y": {
+                                                            "block": {
+                                                              "type": "math_number",
+                                                              "id": "KN7YO@:+E=qYo=v-#sd[",
+                                                              "fields": {
+                                                                "NUM": 21
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "next": {
+                                                          "block": {
+                                                            "type": "move",
+                                                            "id": "xd~8#|2f/PD73^I^XvU+",
+                                                            "fields": {
+                                                              "wayto": "up",
+                                                              "amount": 2
+                                                            },
+                                                            "next": {
+                                                              "block": {
+                                                                "type": "controls_repeat_ext",
+                                                                "id": "4,J+$A03_zqBc.u,GMc2",
+                                                                "inputs": {
+                                                                  "TIMES": {
+                                                                    "shadow": {
+                                                                      "type": "math_number",
+                                                                      "id": "TZt-HXd}GiOk|-6o@[^G",
+                                                                      "fields": {
+                                                                        "NUM": 4
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "DO": {
+                                                                    "block": {
+                                                                      "type": "controls_repeat_ext",
+                                                                      "id": "Ib`T.RuN/-X=:n,:VCbf",
+                                                                      "inputs": {
+                                                                        "TIMES": {
+                                                                          "shadow": {
+                                                                            "type": "math_number",
+                                                                            "id": "c.Ev0GpG1661aTBvkkFs",
+                                                                            "fields": {
+                                                                              "NUM": 10
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "DO": {
+                                                                          "block": {
+                                                                            "type": "boxcmd",
+                                                                            "id": "]G=@6o,plV+^j00e]lV}",
+                                                                            "fields": {
+                                                                              "NAME": "YELLOW_WOOL",
+                                                                              "width": 1,
+                                                                              "height": 1,
+                                                                              "depth": 1
+                                                                            },
+                                                                            "next": {
+                                                                              "block": {
+                                                                                "type": "move",
+                                                                                "id": "M-X8-vQnU2l3Z~%x1CmK",
+                                                                                "fields": {
+                                                                                  "wayto": "fwd",
+                                                                                  "amount": 2
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "next": {
+                                                                        "block": {
+                                                                          "type": "move",
+                                                                          "id": "GI-!!$K,(I6`nb4dI}KV",
+                                                                          "fields": {
+                                                                            "wayto": "turn",
+                                                                            "amount": 1
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "next": {
+                                                                  "block": {
+                                                                    "type": "move",
+                                                                    "id": "1Q07sTP3+EGkJ!WGYy?B",
+                                                                    "fields": {
+                                                                      "wayto": "turn",
+                                                                      "amount": 1
+                                                                    },
+                                                                    "next": {
+                                                                      "block": {
+                                                                        "type": "move",
+                                                                        "id": "HG(c7ViW!6MSEx0u($vi",
+                                                                        "fields": {
+                                                                          "wayto": "back",
+                                                                          "amount": 1
+                                                                        },
+                                                                        "next": {
+                                                                          "block": {
+                                                                            "type": "move",
+                                                                            "id": "!pw:)nc_F~T=~JY4}OIh",
+                                                                            "fields": {
+                                                                              "wayto": "down",
+                                                                              "amount": 2
+                                                                            },
+                                                                            "next": {
+                                                                              "block": {
+                                                                                "type": "move",
+                                                                                "id": "h*7s48@hMGZ.h[G][3!W",
+                                                                                "fields": {
+                                                                                  "wayto": "fwd",
+                                                                                  "amount": 1
+                                                                                },
+                                                                                "next": {
+                                                                                  "block": {
+                                                                                    "type": "move",
+                                                                                    "id": "[R$96N4R$BKO.AG2`#lU",
+                                                                                    "fields": {
+                                                                                      "wayto": "turn",
+                                                                                      "amount": 3
+                                                                                    },
+                                                                                    "next": {
+                                                                                      "block": {
+                                                                                        "type": "controls_repeat_ext",
+                                                                                        "id": "hh~2ZtrKBF0k}iV{Q!ye",
+                                                                                        "inputs": {
+                                                                                          "TIMES": {
+                                                                                            "shadow": {
+                                                                                              "type": "math_number",
+                                                                                              "id": "(1*$.q6`:Nwa!=jv`a2b",
+                                                                                              "fields": {
+                                                                                                "NUM": 4
+                                                                                              }
+                                                                                            }
+                                                                                          },
+                                                                                          "DO": {
+                                                                                            "block": {
+                                                                                              "type": "controls_repeat_ext",
+                                                                                              "id": "-I?T?RQnCD6Y0B[DGK2e",
+                                                                                              "inputs": {
+                                                                                                "TIMES": {
+                                                                                                  "shadow": {
+                                                                                                    "type": "math_number",
+                                                                                                    "id": "{~~j:+KP3m7W+|6vc*!F",
+                                                                                                    "fields": {
+                                                                                                      "NUM": 10
+                                                                                                    }
+                                                                                                  }
+                                                                                                },
+                                                                                                "DO": {
+                                                                                                  "block": {
+                                                                                                    "type": "boxcmd",
+                                                                                                    "id": "x.c?5.u|`x!NIE*;-Q5N",
+                                                                                                    "fields": {
+                                                                                                      "NAME": "QUARTZ_BLOCK",
+                                                                                                      "width": 1,
+                                                                                                      "height": 1,
+                                                                                                      "depth": 1
+                                                                                                    },
+                                                                                                    "next": {
+                                                                                                      "block": {
+                                                                                                        "type": "move",
+                                                                                                        "id": "cRMfHTC|H/u,e$h#1--=",
+                                                                                                        "fields": {
+                                                                                                          "wayto": "fwd",
+                                                                                                          "amount": 2
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              },
+                                                                                              "next": {
+                                                                                                "block": {
+                                                                                                  "type": "move",
+                                                                                                  "id": ".C{FGDft?`vpj;Q,C1-,",
+                                                                                                  "fields": {
+                                                                                                    "wayto": "turn",
+                                                                                                    "amount": 1
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        },
+                                                                                        "next": {
+                                                                                          "block": {
+                                                                                            "type": "move",
+                                                                                            "id": "=!+p]BZ9hmU:i].5D)W3",
+                                                                                            "fields": {
+                                                                                              "wayto": "down",
+                                                                                              "amount": 1
+                                                                                            },
+                                                                                            "next": {
+                                                                                              "block": {
+                                                                                                "type": "boxcmd",
+                                                                                                "id": ")3il6o^b90^]G(Y_CMQ6",
+                                                                                                "fields": {
+                                                                                                  "NAME": "LIME_WOOL",
+                                                                                                  "width": 21,
+                                                                                                  "height": 1,
+                                                                                                  "depth": 21
+                                                                                                },
+                                                                                                "next": {
+                                                                                                  "block": {
+                                                                                                    "type": "funcend",
+                                                                                                    "id": "I98rI=wsf{`7]t~ir$UD",
+                                                                                                    "next": {
+                                                                                                      "block": {
+                                                                                                        "type": "exports",
+                                                                                                        "id": "Y8qV5YgI+vIO}FF;VE@1",
+                                                                                                        "fields": {
+                                                                                                          "exportname": "building"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
